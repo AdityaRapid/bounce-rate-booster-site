@@ -1,36 +1,36 @@
 
-import { Zap, Shield, BarChart3, Users, Clock, Sparkles } from "lucide-react";
+import { Cpu, Shield, BarChart3, Cloud, Zap, Bot } from "lucide-react";
 
 const features = [
   {
-    icon: Zap,
-    title: "Lightning Fast",
-    description: "Experience blazing-fast performance with our optimized infrastructure and cutting-edge technology."
+    icon: Cpu,
+    title: "Advanced Computing",
+    description: "Leverage quantum computing and edge processing for unprecedented computational power and efficiency."
   },
   {
     icon: Shield,
-    title: "Enterprise Security",
-    description: "Bank-level security with end-to-end encryption and compliance with industry standards."
+    title: "Cybersecurity Excellence",
+    description: "Military-grade security with AI-powered threat detection and zero-trust architecture implementation."
   },
   {
     icon: BarChart3,
-    title: "Advanced Analytics",
-    description: "Gain deep insights with powerful analytics and real-time reporting capabilities."
+    title: "Predictive Analytics",
+    description: "Transform data into actionable insights with machine learning algorithms and real-time analytics."
   },
   {
-    icon: Users,
-    title: "Team Collaboration",
-    description: "Seamlessly collaborate with your team using our intuitive collaboration tools."
+    icon: Cloud,
+    title: "Cloud Infrastructure",
+    description: "Scalable, reliable cloud solutions with multi-region deployment and automatic failover capabilities."
   },
   {
-    icon: Clock,
-    title: "24/7 Support",
-    description: "Round-the-clock support from our expert team to help you succeed."
+    icon: Zap,
+    title: "High Performance",
+    description: "Optimized for speed with microsecond response times and 99.99% uptime guarantee."
   },
   {
-    icon: Sparkles,
-    title: "AI-Powered",
-    description: "Leverage artificial intelligence to automate workflows and boost productivity."
+    icon: Bot,
+    title: "AI Integration",
+    description: "Seamlessly integrate artificial intelligence and automation to revolutionize your workflows."
   }
 ];
 
@@ -40,10 +40,10 @@ const Features = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Powerful Features for Modern Teams
+            Cutting-Edge Technology Stack
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Everything you need to streamline your workflow and accelerate your business growth.
+            Built on the latest innovations in computing, security, and artificial intelligence.
           </p>
         </div>
         

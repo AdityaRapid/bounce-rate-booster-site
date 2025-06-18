@@ -12,18 +12,18 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              BrandName
+              TechForge
             </div>
           </div>
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a href="#features" className="text-gray-700 hover:text-blue-600 transition-colors">Features</a>
-              <a href="#testimonials" className="text-gray-700 hover:text-blue-600 transition-colors">Testimonials</a>
+              <a href="#features" className="text-gray-700 hover:text-blue-600 transition-colors">Technology</a>
+              <a href="#testimonials" className="text-gray-700 hover:text-blue-600 transition-colors">Case Studies</a>
               <a href="#pricing" className="text-gray-700 hover:text-blue-600 transition-colors">Pricing</a>
-              <Button variant="outline" className="mr-2">Sign In</Button>
+              <Button variant="outline" className="mr-2">Developer Portal</Button>
               <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                Get Started
+                Start Building
               </Button>
             </div>
           </div>
@@ -38,12 +38,12 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
-              <a href="#features" className="block px-3 py-2 text-gray-700">Features</a>
-              <a href="#testimonials" className="block px-3 py-2 text-gray-700">Testimonials</a>
+              <a href="#features" className="block px-3 py-2 text-gray-700">Technology</a>
+              <a href="#testimonials" className="block px-3 py-2 text-gray-700">Case Studies</a>
               <a href="#pricing" className="block px-3 py-2 text-gray-700">Pricing</a>
               <div className="flex space-x-2 px-3 py-2">
-                <Button variant="outline" size="sm">Sign In</Button>
-                <Button size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600">Get Started</Button>
+                <Button variant="outline" size="sm">Developer Portal</Button>
+                <Button size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600">Start Building</Button>
               </div>
             </div>
           </div>

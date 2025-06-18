@@ -4,49 +4,52 @@ import { Button } from "@/components/ui/button";
 
 const plans = [
   {
-    name: "Starter",
-    price: "$19",
+    name: "Developer",
+    price: "$99",
     period: "/month",
-    description: "Perfect for small teams getting started",
+    description: "Perfect for individual developers and small projects",
     features: [
-      "Up to 5 team members",
-      "10GB storage",
-      "Basic analytics",
-      "Email support",
-      "Standard templates"
+      "Up to 10 API calls/second",
+      "50GB cloud storage",
+      "Basic AI models access",
+      "Community support",
+      "Standard encryption",
+      "Development sandbox"
     ],
     popular: false
   },
   {
-    name: "Professional",
-    price: "$49",
+    name: "Enterprise",
+    price: "$499",
     period: "/month",
-    description: "Best for growing businesses",
+    description: "Advanced features for growing tech companies",
     features: [
-      "Up to 25 team members",
-      "100GB storage",
+      "Up to 1000 API calls/second",
+      "500GB cloud storage",
+      "Advanced AI & ML models",
+      "Priority technical support",
+      "Custom integrations",
       "Advanced analytics",
-      "Priority support",
-      "Custom templates",
-      "API access",
-      "Integrations"
+      "Multi-region deployment",
+      "Dedicated account manager"
     ],
     popular: true
   },
   {
-    name: "Enterprise",
-    price: "$99",
+    name: "Scale",
+    price: "$1,999",
     period: "/month",
-    description: "For large organizations",
+    description: "For large enterprises and mission-critical applications",
     features: [
-      "Unlimited team members",
-      "1TB storage",
-      "Enterprise analytics",
+      "Unlimited API calls",
+      "5TB+ cloud storage",
+      "Quantum computing access",
       "24/7 dedicated support",
-      "Custom everything",
-      "Full API access",
-      "Advanced security",
-      "White-label options"
+      "White-label solutions",
+      "Custom AI model training",
+      "Enterprise-grade security",
+      "Global edge deployment",
+      "SLA guarantees"
     ],
     popular: false
   }
@@ -58,10 +61,10 @@ const Pricing = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Simple, Transparent Pricing
+            Technology That Scales With You
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Choose the perfect plan for your team. No hidden fees, no surprises.
+            Choose the right technology package for your innovation needs. All plans include core features.
           </p>
         </div>
         
@@ -107,7 +110,7 @@ const Pricing = () => {
                 }`}
                 size="lg"
               >
-                Get Started
+                Start Building
               </Button>
             </div>
           ))}
